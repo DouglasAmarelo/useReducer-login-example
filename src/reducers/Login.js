@@ -38,7 +38,6 @@ const Login = (state, action) => {
     }
     case 'logout': {
       return {
-        ...state,
         isLoading: false,
         isLoggedIn: false,
         username: '',
